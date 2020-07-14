@@ -1,0 +1,6 @@
+com\ten\user\UserApplication.class
+com\ten\user\pojo\User.class
+com\ten\user\dao\UserDao.class
+com\ten\user\config\MyBatisPlusConfig.class
+com\ten\user\controller\UserController.class
+com\ten\user\service\UserService.class

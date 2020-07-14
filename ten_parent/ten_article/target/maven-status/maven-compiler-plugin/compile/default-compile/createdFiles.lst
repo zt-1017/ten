@@ -1,0 +1,11 @@
+com\ten\article\controller\BaseExceptionHander.class
+com\ten\article\ArticleApplication.class
+com\ten\article\repository\CommentRepository.class
+com\ten\article\service\ArticleService.class
+com\ten\article\pojo\Article.class
+com\ten\article\controller\CommentController.class
+com\ten\article\service\CommentService.class
+com\ten\article\controller\ArticleController.class
+com\ten\article\config\MyBatisPlusConfig.class
+com\ten\article\dao\ArticleDao.class
+com\ten\article\pojo\Comment.class
