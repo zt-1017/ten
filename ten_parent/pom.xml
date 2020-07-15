@@ -13,6 +13,7 @@
         <module>ten_article</module>
         <module>mongoTest</module>
         <module>ten_user</module>
+        <module>mysqlTest</module>
     </modules>
 
     <parent>

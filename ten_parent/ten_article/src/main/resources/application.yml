@@ -5,17 +5,17 @@ spring:
     name: ten_acticle #服务名称
   datasource:
     driver-class-name: com.mysql.jdbc.Driver  #数据库属性
-    url: jdbc:mysql://192.168.204.129:3306/tensquare_article?characterEncoding=utf-8
+    url: jdbc:mysql://39.108.255.110:3306/tensquare_article?characterEncoding=utf-8
     password: root
     username: root
 
   data:
     mongodb:
       database: commentdb
-      host: 192.168.204.129
+      host: 39.108.255.110
 
   redis:
-    host: 192.168.204.129
+    host: 39.108.255.110
 
 # Mybatis-Plus 配置
 mybatis-plus:

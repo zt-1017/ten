@@ -1,21 +1,13 @@
 server:
-  port: 9004  #服务访问端口号
+  port: 9004
 spring:
   application:
-    name: ten_acticle #服务名称
+    name: ten-article #指定服务名
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver  #数据库属性
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://39.108.255.110:3306/tensquare_article?characterEncoding=utf-8
-    password: root
     username: root
-
-  data:
-    mongodb:
-      database: commentdb
-      host: 39.108.255.110
-
-  redis:
-    host: 39.108.255.110
+    password: root
 
 # Mybatis-Plus 配置
 mybatis-plus:

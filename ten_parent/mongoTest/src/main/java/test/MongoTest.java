@@ -25,7 +25,7 @@ public class MongoTest {
     @Before
     public void init(){
         //1.新建MongoDB客户端
-        mongoClient = new MongoClient("192.168.204.129");
+        mongoClient = new MongoClient("39.108.255.110");
         //2.选择数据库
         MongoDatabase commentdb = mongoClient.getDatabase("commentdb");
         //3.获取集合

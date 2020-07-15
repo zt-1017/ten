@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mongoTest" />
-        <module name="ten_user" />
         <module name="ten_common" />
+        <module name="ten_user" />
+        <module name="mysqlTest" />
         <module name="ten_article" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mongoTest" options="-parameters" />
+      <module name="mysqlTest" options="-parameters" />
       <module name="ten_article" options="-parameters" />
       <module name="ten_common" options="-parameters" />
       <module name="ten_parent" options="-parameters" />
