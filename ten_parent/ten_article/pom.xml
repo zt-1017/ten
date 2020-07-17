@@ -44,6 +44,11 @@
             <version>${mybatisplus.version}</version>
         </dependency>
         <!-- mybatis-plus end -->
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

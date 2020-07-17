@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mongoTest" />
-        <module name="ten_common" />
-        <module name="ten_user" />
         <module name="mysqlTest" />
+        <module name="ten_user" />
+        <module name="ten_notice" />
+        <module name="ten_common" />
+        <module name="ten_encrypt" />
+        <module name="ten_eureka" />
         <module name="ten_article" />
+        <module name="mongoTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +26,9 @@
       <module name="mysqlTest" options="-parameters" />
       <module name="ten_article" options="-parameters" />
       <module name="ten_common" options="-parameters" />
+      <module name="ten_encrypt" options="-parameters" />
+      <module name="ten_eureka" options="-parameters" />
+      <module name="ten_notice" options="-parameters" />
       <module name="ten_parent" options="-parameters" />
       <module name="ten_user" options="-parameters" />
     </option>

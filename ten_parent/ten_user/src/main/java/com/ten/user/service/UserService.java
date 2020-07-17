@@ -16,11 +16,17 @@ public class UserService {
     @Autowired
     private UserDao userDao;
 
+    //根据用户id查询用户
     public User findById(String userId) {
         User user = userDao.selectById(userId);
         return user;
     }
 
-    //根据用户id查询用户
+    public User login(User user) {
+        User one = userDao.selectOne(user);
+        return one;
+    }
+
+
 
 }

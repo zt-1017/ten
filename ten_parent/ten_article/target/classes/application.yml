@@ -2,7 +2,7 @@ server:
   port: 9004  #服务访问端口号
 spring:
   application:
-    name: ten_acticle #服务名称
+    name: ten-article #服务名称
   datasource:
     driver-class-name: com.mysql.jdbc.Driver  #数据库属性
     url: jdbc:mysql://39.108.255.110:3306/tensquare_article?characterEncoding=utf-8
@@ -32,3 +32,11 @@ mybatis-plus:
       lazyLoadingEnabled: true #延时加载的开关
       multipleResultSetsEnabled: true #开启延时加载，否则按需加载属性
       log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #打印sql语句,调试用
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+  instance:
+    prefer-ip-address: true
+
